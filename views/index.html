@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧰 Tools & Resources Collection</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">🧰 Tools Collection</a>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-page="home">Home</a>
+                <a href="#" class="nav-link" data-page="about">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1>🧰 Tools & Resources Collection</h1>
+                <p>A curated collection of useful tools, apps, and resources for developers and power users</p>
+            </section>
+
+            <!-- Search and Filter Section -->
+            <section class="controls">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="search-input" placeholder="Search tools, descriptions, or tags...">
+                    <button id="clear-search" class="clear-btn" style="display: none;">×</button>
+                </div>
+                <div class="filter-actions">
+                    <select id="category-filter" class="category-select">
+                        <option value="all">All Categories</option>
+                    </select>
+                    <button id="add-btn" class="btn btn-primary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 5v14M5 12h14"></path>
+                        </svg>
+                        Add New
+                    </button>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-count">0</span>
+                    <span class="stat-label">Total Tools</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="category-count">0</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="showing-count">0</span>
+                    <span class="stat-label">Showing</span>
+                </div>
+            </section>
+
+            <!-- Category Tabs -->
+            <section class="category-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+            </section>
+
+            <!-- URL Cards Grid -->
+            <section class="cards-grid" id="cards-container">
+                <!-- Cards will be dynamically inserted here -->
+            </section>
+
+            <!-- Empty State -->
+            <div id="empty-state" class="empty-state" style="display: none;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <h3>No results found</h3>
+                <p>Try adjusting your search or filter criteria</p>
+            </div>
+        </div>
+
+        <!-- About Page - Dynamic Content -->
+        <div id="about-page" class="page">
+            <section class="about-section">
+                <div class="about-card" id="about-container">
+                    <!-- About content will be dynamically inserted here -->
+                    <div class="loading">Loading...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Add Modal -->
+    <div id="add-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Tool</h2>
+                <button class="modal-close" id="modal-close">×</button>
+            </div>
+            <form id="add-form">
+                <div class="form-group">
+                    <label for="tool-name">Name *</label>
+                    <input type="text" id="tool-name" name="name" required placeholder="e.g., DevToys">
+                </div>
+                <div class="form-group">
+                    <label for="tool-url">URL *</label>
+                    <input type="url" id="tool-url" name="url" required placeholder="https://example.com">
+                </div>
+                <div class="form-group">
+                    <label for="tool-description">Description *</label>
+                    <textarea id="tool-description" name="description" required
+                        placeholder="Brief description of the tool..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="tool-category">Category *</label>
+                    <select id="tool-category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="online-tools">🔗 Online Tools</option>
+                        <option value="desktop-apps">💻 Desktop Apps</option>
+                        <option value="chrome-extensions">🌐 Chrome Extensions</option>
+                        <option value="vscode-extensions">📝 VSCode Extensions</option>
+                        <option value="misc">📦 Misc</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tool-tags">Tags (comma separated)</label>
+                    <input type="text" id="tool-tags" name="tags" placeholder="e.g., developer, utility, free">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" id="cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Tool</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <span id="toast-message"></span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with ❤️ | Tools & Resources Collection</p>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

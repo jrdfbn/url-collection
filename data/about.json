@@ -1,0 +1,27 @@
+{
+  "name": "Jordi Febrian Nappu",
+  "tagline": "Software Quality Assurance",
+  "avatar": "https://iili.io/fbNrJA7.th.jpg",
+  "bio": [
+    "As a dedicated and results-driven Software Quality Assurance (SQA) Engineer with over 3+ years of hands-on experience, I specialize in ensuring the delivery of robust, high-quality software solutions. My focus areas include manual testing, automation testing, and performance testing, where I combine technical precision with a deep understanding of user expectations to drive excellence in software development.",
+    "This collection represents my carefully curated toolkit that I use daily. Each tool here has been tested and proven to add value to my workflow. Feel free to explore and suggest new additions!"
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jrdfbn",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/jordi-febrian",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:febrianjordi@gmail.com",
+      "icon": "email"
+    }
+  ],
+  "skills": ["JavaScript", "Playwright", "WebdriverIO", "K6", "SQL", "Postman"]
+}

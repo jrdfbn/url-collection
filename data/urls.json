@@ -1,0 +1,627 @@
+{
+  "urls": [
+    {
+      "id": 1,
+      "name": "Arena",
+      "url": "https://arena.ai/?mode=direct",
+      "description": "Multiple Models / No Sign-Up / Reset Limits w/ Cookie Delete or Temp Mail",
+      "category": "online-tools",
+      "tags": [
+        "ai",
+        "models",
+        "free"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TTS Online",
+      "url": "https://www.text-to-speech.online/",
+      "description": "Text to Speech / No Sign-Up",
+      "category": "online-tools",
+      "tags": [
+        "tts",
+        "audio",
+        "free"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Phrasefix",
+      "url": "https://phrasefix.com/",
+      "description": "Text Editor Tool - Convert text instantly between different letter cases: lower case, UPPER CASE, Sentence case, Capitalized Case, aLtErNaTiNg cAsE and much more",
+      "category": "online-tools",
+      "tags": [
+        "text",
+        "converter",
+        "editor"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "DeDupeList",
+      "url": "https://dedupelist.com/",
+      "description": "Remove duplicate lines from a list",
+      "category": "online-tools",
+      "tags": [
+        "text",
+        "duplicate",
+        "utility"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "IT-Tools OTP Generator",
+      "url": "https://it-tools.tech/otp-generator",
+      "description": "OTP Generator / Handy tools for developers",
+      "category": "online-tools",
+      "tags": [
+        "otp",
+        "developer",
+        "security"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Change CSV Delimiter",
+      "url": "https://onlinetools.com/csv/change-csv-delimiter",
+      "description": "CSV Column Delimiter Changer",
+      "category": "online-tools",
+      "tags": [
+        "csv",
+        "data",
+        "converter"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "JSON to Schema Converter",
+      "url": "https://www.liquid-technologies.com/online-json-to-schema-converter",
+      "description": "JSON to JSON Schema Converter",
+      "category": "online-tools",
+      "tags": [
+        "json",
+        "schema",
+        "converter"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dummy JSON",
+      "url": "https://dummyjson.com/docs",
+      "description": "Dummy JSON for testing and prototyping",
+      "category": "online-tools",
+      "tags": [
+        "json",
+        "api",
+        "testing"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "BentoPDF",
+      "url": "https://www.bentopdf.com/#tools-header",
+      "description": "Online PDF Tools",
+      "category": "online-tools",
+      "tags": [
+        "pdf",
+        "document",
+        "converter"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pairdrop",
+      "url": "https://pairdrop.net/",
+      "description": "P2P Transfer / The easiest way to transfer files across devices",
+      "category": "online-tools",
+      "tags": [
+        "file-transfer",
+        "p2p",
+        "sharing"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MiniQR",
+      "url": "https://mini-qr-code-generator.vercel.app/",
+      "description": "Mini QR Code Generator",
+      "category": "online-tools",
+      "tags": [
+        "qr",
+        "generator",
+        "utility"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Generatedata",
+      "url": "https://generatedata.com/generator",
+      "description": "Data Generator for testing",
+      "category": "online-tools",
+      "tags": [
+        "data",
+        "generator",
+        "testing"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Mockaroo",
+      "url": "https://mockaroo.com/",
+      "description": "Random Data Generator and API Mocking Tool",
+      "category": "online-tools",
+      "tags": [
+        "data",
+        "generator",
+        "api"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Mockium",
+      "url": "https://softwium.com/mockium/",
+      "description": "Mock Data Generator",
+      "category": "online-tools",
+      "tags": [
+        "data",
+        "generator",
+        "mock"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Draw.io",
+      "url": "https://www.drawio.com/",
+      "description": "Configurable diagramming/whiteboarding visualization application",
+      "category": "online-tools",
+      "tags": [
+        "diagram",
+        "whiteboard",
+        "design"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "category": "online-tools",
+      "tags": [
+        "whiteboard",
+        "drawing",
+        "collaboration"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "RX Resume",
+      "url": "https://rxresu.me/",
+      "description": "A free and open-source resume builder",
+      "category": "online-tools",
+      "tags": [
+        "resume",
+        "cv",
+        "career"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "FlowCV",
+      "url": "https://flowcv.com/",
+      "description": "Free Online Resume Builder",
+      "category": "online-tools",
+      "tags": [
+        "resume",
+        "cv",
+        "career"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Hotkey Cheatsheet",
+      "url": "https://hotkeycheatsheet.com/",
+      "description": "Hotkey Cheatsheet for various applications",
+      "category": "online-tools",
+      "tags": [
+        "hotkey",
+        "shortcut",
+        "reference"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "OnlineTextCompare",
+      "url": "https://onlinetextcompare.com/",
+      "description": "Compare Text Online",
+      "category": "online-tools",
+      "tags": [
+        "text",
+        "compare",
+        "diff"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Diffr",
+      "url": "https://loilo.github.io/diffr/",
+      "description": "Online Text Diff Tool",
+      "category": "online-tools",
+      "tags": [
+        "text",
+        "compare",
+        "diff"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "LanguageTool",
+      "url": "https://languagetool.org/",
+      "description": "Grammar Checker for multiple languages",
+      "category": "online-tools",
+      "tags": [
+        "grammar",
+        "spelling",
+        "writing"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "QMK.top",
+      "url": "https://iotdriver.qmk.top/",
+      "description": "Quantum Mechanical Kit",
+      "category": "online-tools",
+      "tags": [
+        "keyboard",
+        "qmk",
+        "firmware"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CURL Converter",
+      "url": "https://curlconverter.com/node-http/",
+      "description": "Convert curl commands to Python, JavaScript and more (For K6)",
+      "category": "online-tools",
+      "tags": [
+        "curl",
+        "converter",
+        "developer"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Caesium Image Compressor",
+      "url": "https://caesium.app/",
+      "description": "Image Compressor - Reduce image file sizes",
+      "category": "online-tools",
+      "tags": [
+        "image",
+        "compress",
+        "optimization"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Faker",
+      "url": "https://fakerjs.dev/",
+      "description": "Generate massive amounts of fake (but realistic) data for testing and development",
+      "category": "online-tools",
+      "tags": [
+        "data",
+        "faker",
+        "testing"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "SmailPro",
+      "url": "https://smailpro.com/temporary-email",
+      "description": "Gmail & Outlook / 30+ Domains - Temporary Email",
+      "category": "online-tools",
+      "tags": [
+        "email",
+        "temporary",
+        "privacy"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Microsoft Activation Scripts (MAS)",
+      "url": "https://massgrave.dev/",
+      "description": "An open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods",
+      "category": "online-tools",
+      "tags": [
+        "windows",
+        "activation",
+        "microsoft"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "ToolBaz",
+      "url": "https://toolbaz.com/",
+      "description": "Online AI Text Tools",
+      "category": "online-tools",
+      "tags": [
+        "ai",
+        "text",
+        "tools"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "DevToys",
+      "url": "https://devtoys.app/",
+      "description": "Swiss Army knife for developers",
+      "category": "desktop-apps",
+      "tags": [
+        "developer",
+        "tools",
+        "windows"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "PowerToys",
+      "url": "https://github.com/microsoft/PowerToys/releases/tag/v0.96.0",
+      "description": "Various quality of life utilities for Windows",
+      "category": "desktop-apps",
+      "tags": [
+        "windows",
+        "utility",
+        "microsoft"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "NanaZip",
+      "url": "https://github.com/M2Team/NanaZip",
+      "description": "Similar to 7zip, but more designed for Windows 11",
+      "category": "desktop-apps",
+      "tags": [
+        "archive",
+        "zip",
+        "windows"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "EarTrumpet",
+      "url": "https://eartrumpet.app/",
+      "description": "Volume control for Windows",
+      "category": "desktop-apps",
+      "tags": [
+        "audio",
+        "volume",
+        "windows"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "QuickLook",
+      "url": "https://github.com/QL-Win/QuickLook",
+      "description": "Bring macOS Quick Look feature to Windows",
+      "category": "desktop-apps",
+      "tags": [
+        "preview",
+        "quicklook",
+        "windows"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Revo Uninstaller",
+      "url": "https://www.revouninstaller.com/products/revo-uninstaller-free/",
+      "description": "Bulk Uninstallation Tool",
+      "category": "desktop-apps",
+      "tags": [
+        "uninstaller",
+        "cleanup",
+        "windows"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Bulk Crap Uninstaller",
+      "url": "https://www.bcuninstaller.com/",
+      "description": "Bulk program uninstaller",
+      "category": "desktop-apps",
+      "tags": [
+        "uninstaller",
+        "cleanup",
+        "windows"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "LosslessCut",
+      "url": "https://mifi.no/losslesscut/",
+      "description": "The Swiss Army Knife of Lossless Video/Audio Editing",
+      "category": "desktop-apps",
+      "tags": [
+        "video",
+        "audio",
+        "editor"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "File Converter",
+      "url": "https://file-converter.io/",
+      "description": "Convert & compress everything in 2 clicks",
+      "category": "desktop-apps",
+      "tags": [
+        "converter",
+        "compress",
+        "file"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "ShareX",
+      "url": "https://getsharex.com/",
+      "description": "Screen capture, file sharing and productivity tool",
+      "category": "desktop-apps",
+      "tags": [
+        "screenshot",
+        "screen-capture",
+        "sharing"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "WizTree",
+      "url": "https://diskanalyzer.com/",
+      "description": "The FASTEST Disk Space Analyzer",
+      "category": "desktop-apps",
+      "tags": [
+        "disk",
+        "analyzer",
+        "storage"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "UniGetUI",
+      "url": "https://www.marticliment.com/unigetui/",
+      "description": "GUI for Popular Package Managers",
+      "category": "desktop-apps",
+      "tags": [
+        "package-manager",
+        "gui",
+        "windows"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "GParted",
+      "url": "https://gparted.org/",
+      "description": "Partition Managers",
+      "category": "desktop-apps",
+      "tags": [
+        "partition",
+        "disk",
+        "linux"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "PDF24",
+      "url": "https://www.pdf24.org/en/",
+      "description": "Offline PDF Toolkits",
+      "category": "desktop-apps",
+      "tags": [
+        "pdf",
+        "document",
+        "tools"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "LocalSend",
+      "url": "https://localsend.org/",
+      "description": "File Transfer across devices",
+      "category": "desktop-apps",
+      "tags": [
+        "file-transfer",
+        "sharing",
+        "cross-platform"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Awesome Screen Recorder & Screenshot",
+      "url": "https://chromewebstore.google.com/detail/awesome-screen-recorder-s/nlipoenfbbikpbjkfpfillcgkoblgpmj",
+      "description": "Awesome Screen Recorder and Screen Capture 2 in 1",
+      "category": "chrome-extensions",
+      "tags": [
+        "screen-recorder",
+        "screenshot",
+        "chrome"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Excel Viewer",
+      "url": "https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer",
+      "description": "Edit Excel spreadsheets and CSV files in Visual Studio Code",
+      "category": "vscode-extensions",
+      "tags": [
+        "excel",
+        "csv",
+        "vscode"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Codeium AI",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Codeium.codeium",
+      "description": "The modern coding superpower: free AI code acceleration plugin",
+      "category": "vscode-extensions",
+      "tags": [
+        "ai",
+        "code-completion",
+        "vscode"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Open in Browser",
+      "url": "https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser",
+      "description": "This allows you to open the current file in your default browser",
+      "category": "vscode-extensions",
+      "tags": [
+        "browser",
+        "preview",
+        "vscode"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Guide for Pirating Windows",
+      "url": "https://rentry.co/R3VpZGUgZm9yIHBpcmF0aW5nIFdpbmRvd3M",
+      "description": "Guide for Windows",
+      "category": "misc",
+      "tags": [
+        "windows",
+        "guide",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "AI Prompt - Code Explainer (Reddit)",
+      "url": "https://rentry.co/cHJvbXB0LTE",
+      "description": "AI Prompt - Code Explainer from Reddit",
+      "category": "misc",
+      "tags": [
+        "ai",
+        "prompt",
+        "code"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "AI Prompt - Code Explainer (OpenAI)",
+      "url": "https://rentry.co/cHJvbXB0LTI",
+      "description": "AI Prompt - Code Explainer from OpenAI Community",
+      "category": "misc",
+      "tags": [
+        "ai",
+        "prompt",
+        "code"
+      ]
+    },
+    {
+      "id": 1770389205717,
+      "name": "Kagi Translate",
+      "url": "https://translate.kagi.com/",
+      "description": "Kagi Translate",
+      "category": "online-tools",
+      "tags": [
+        "translate"
+      ],
+      "createdAt": "2026-02-06T14:46:45.717Z"
+    }
+  ]
+}
