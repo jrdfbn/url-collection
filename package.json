@@ -4,7 +4,7 @@
   "description": "A collection of useful URLs and tools",
   "main": "server.js",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "scripts": {
     "start": "node server.js",
